@@ -55,7 +55,7 @@ enum class BusScheduleScreens{
 }
 
 @Composable
-fun BusScheduleScreens(
+fun BusScheduleApp(
     viewModel: BusScheduleViewModel = viewModel(factory = BusScheduleViewModel.factory)
 ) {
     val navController = rememberNavController()
