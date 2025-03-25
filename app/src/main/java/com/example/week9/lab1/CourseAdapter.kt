@@ -32,9 +32,10 @@ class CourseAdapter(
             }
         }
 
-        init {
-            setHasStableIds(true)
-        }
+    }
+
+    init {
+        setHasStableIds(true)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CourseViewHolder {

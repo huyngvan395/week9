@@ -103,7 +103,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun deleteCourse(course: Course){
-        lifecycleScope.launch {
+        lifecycleScope.launch(Dispatchers.IO) {
             database.courseDao().deleteCourse(course)
             loadCourses()
         }
