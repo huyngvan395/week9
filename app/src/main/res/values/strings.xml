@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Week9</string>
     <string name="title_activity_main2">MainActivity2</string>
+    <string name="full_schedule">Bus Schedule</string>
+    <string name="back">Back</string>
+    <string name="stop_name">Stop Name</string>
+    <string name="route_stop_name">Stop</string>
+    <string name="arrival_time">Arrival Time</string>
 </resources>
